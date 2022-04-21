@@ -11,11 +11,11 @@
      return IncreaseCounter;
 }
 
-// var counter = Counter();
-// alert(counter());
-// alert(counter());
-// alert(counter());
-// alert(counter());
+var counter = Counter();
+alert(counter());
+alert(counter());
+alert(counter());
+alert(counter());
 
 // 2
 let count = 0;
