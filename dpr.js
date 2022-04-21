@@ -36,7 +36,7 @@ for (var i = 0; i < 3; i++) {
   }
 
   // 4
-//   Write a code to calculate area of a rectangle using inner function. In this case outer function should accept parameter length and inner function should accept parameter breadth.
+// calculate area of a rectangle 
 function findArea(width, length){
 
     function area(){
@@ -47,7 +47,7 @@ function findArea(width, length){
    return area();
 }
 
-console.log(findArea(50,20));
+console.log(findArea(50,20)); // prints 1000
 
 // 7
 //Take a variable in outer function and create an inner function to increase the counter every time it is called
@@ -72,14 +72,14 @@ function Click(){
    
  document.getElementById("btn").innerText =Count(); 
    
-}
+} 
 
 // 8
 
 var a = 12;
 (function () {
   alert(a);
-})();
+})(); // prints 12
 
 // 9
 
@@ -111,6 +111,11 @@ var globalVar = "xyz";
         "globalVar = " + globalVar);
     
     })(456);
-})(123);
+})(123); // prints 
+// outerArg = 123
+// innerArg = 456
+// outerVar = a
+// innerVar = b
+// globalVar = xyz
 
 
